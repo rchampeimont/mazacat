@@ -1,0 +1,48 @@
+MAZACAT
+
+=== FRANCAIS ===
+Langue de MAZACAT : Francais
+Licence : BSD a 2 clauses (sans les 3e et 4e clauses) -> voir fichier COPYING
+
+COMPILATION ET EXECUTION :
+A la racine de ce dossier faites :
+	./configure
+	make
+Puis pour executer MAZACAT :
+	cd src
+	./mazacat
+
+ATTENTION : le programme n'est pas installable avec "make install"
+Si vous entrez quand meme "make install" seul le fichier ./src/mazacat sera
+copie dans PREFIX/bin (par defaut /usr/local/bin) mais ce fichier cherche
+les fichiers de MAZACAT dans le repertoire courant, il faudra donc lancer
+la commande mazacat en etant dans le dossier src. L'installation ne presente
+donc pas un grand interet.
+
+MAZACAT utilise les librairies SDL et SDL_Image, sous licence LGPL.
+La licence LGPL est contenue dans le fichier LGPL.
+
+=== ENGLISH ===
+
+Language in MAZACAT: French (NO translation even in English :-) )
+License: a two-term BSD license (the BSD license without clauses #3 and #4)
+         -> see file COPYING
+
+INSTRUCTIONS FOR COMPILING AND RUNNING MAZACAT:
+In this directory enter:
+	./configure
+	make
+Then, to run MAZACAT:
+	cd src
+	./mazacat
+
+WARNING: You cannot install rhis program using "make install".
+If you enter "make install", only the file ./src/mazacat will be copied in
+PREFIX/bin (default /usr/local/bin) but this binary wants the MAZACAT files to
+be in the current directory, so you will need to run the mazacat command after
+entering in the src direcory. So installing with "make install" is not worth
+of interest.
+
+MAZACAT uses the SDL and SDL_Image libraries, licensed under the LGPL.
+A copy of the LGPL is included in the LGPL file.
+

@@ -1,0 +1,5 @@
+Version 20060418
+	license change to a two-term BSD license
+	now Makefile and configure are generated using autoconf and automake
+	new first map
+
